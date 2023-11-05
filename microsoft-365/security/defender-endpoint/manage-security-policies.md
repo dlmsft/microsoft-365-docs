@@ -106,7 +106,7 @@ The following list provides a brief description of each endpoint security policy
 To verify that you have successfully created a policy, select a policy name from the list of endpoint security policies.
 
 >[!NOTE]
->It can take up to 90 minutes for a policy to reach a device. To expedite the process, for devices Managed by Defender for Enpoint, you can select **Policy sync** from the actions menu so that it is applied in approximately 10 minutes.
+>It can take up to 90 minutes for a policy to reach a device. To expedite the process, for devices Managed by Defender for Endpoint, you can select **Policy sync** from the actions menu so that it is applied in approximately 10 minutes.
 > :::image type="content" source="./images/policy-sync.png" alt-text="Image showing policy sync button":::
 
 The policy page displays details that summarize the status of the policy. You can view a policy's status, which devices it has been applied to, and assigned groups.
@@ -116,7 +116,8 @@ During an investigation, you can also view the **Security policies** tab in the 
 
 :::image type="content" source="./images/security-policies-list.png" alt-text="Security policies tab with list of policies":::
 
-
+>[!NOTE]
+>We have been made aware of an issue where in some cases, security policies for macOS devices are visible in the Endpoint Security policy list view, but not in the device page. We are actively investigating this in order to provide a resolution.
 
 
 [!INCLUDE [Microsoft Defender for Endpoint Tech Community](../../includes/defender-mde-techcommunity.md)]
