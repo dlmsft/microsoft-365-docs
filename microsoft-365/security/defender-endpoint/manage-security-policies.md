@@ -27,10 +27,6 @@ ms.date: 09/14/2023
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 
->[!NOTE]
->The following capability is only available to customers who turn on preview features. For more information, see [Turn on preview features](preview.md#turn-on-preview-features). 
-
-
 Use security policies to manage security settings on devices. As a security administrator, you can configure security policy settings in Microsoft 365 Defender. 
 
 You'll find endpoint security policies under **Endpoints > Configuration management > Endpoint security policies**.
@@ -55,8 +51,6 @@ The following list provides a brief description of each endpoint security policy
 
 ## Create an endpoint security policy
 
->[!NOTE]
->Currently, only antivirus policies are supported. 
 
 1. Sign in to <a href="https://go.microsoft.com/fwlink/p/?linkid=2077139" target="_blank">Microsoft 365 Defender</a> using at least a security admin role.
 
@@ -74,15 +68,17 @@ The following list provides a brief description of each endpoint security policy
 
    When you're done configuring settings, select **Next**.
 
-7. On the **Assignments** page, select the groups that will receive this profile. 
+> [!NOTE]
+> Some security settings, such as exclusions or rules, enable for administrators to enter free text values. We are aware that when providing letters that are not in the English alphabet, the settings will fail to apply on some devices. To avoid this from ocurring, and until a resolution is provided, we recommend to only leverage capital and lowercase letters English letters.
+
+8. On the **Assignments** page, select the groups that will receive this profile. 
 
    Select **Next**.
 
-8. On the **Review + create** page, when you're done, select **Save**. The new profile is displayed in the list when you select the policy type for the profile you created.
+9. On the **Review + create** page, when you're done, select **Save**. The new profile is displayed in the list when you select the policy type for the profile you created.
 
 
->[!NOTE]
->To edit the scope tags, you'll need to go to the [Microsoft Intune admin center](https://go.microsoft.com/fwlink/?linkid=2109431).
+
 
 
 ## To edit an endpoint security policy
